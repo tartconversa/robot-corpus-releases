@@ -1,0 +1,12 @@
+{
+  "intake": 1,
+  "table": "exposures",
+  "records": [
+    {
+      "id": "ex-a",
+      "member": "previous-a",
+      "recipient": "team1",
+      "role": "train"
+    }
+  ]
+}

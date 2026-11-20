@@ -1,0 +1,12 @@
+{
+  "intake": 1,
+  "table": "links",
+  "records": [
+    {
+      "id": "link-ab",
+      "episode_left": "A",
+      "episode_right": "B",
+      "kind": "repeat"
+    }
+  ]
+}

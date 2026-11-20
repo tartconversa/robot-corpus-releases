@@ -1,0 +1,48 @@
+{
+  "intake": 2,
+  "table": "scores",
+  "records": [
+    {
+      "id": "s-d1",
+      "member": "previous-d",
+      "evaluator": "lab1",
+      "score": 80
+    },
+    {
+      "id": "s-f1",
+      "member": "previous-f",
+      "evaluator": "lab1",
+      "score": 77
+    },
+    {
+      "id": "s-g1",
+      "member": "previous-g",
+      "evaluator": "lab1",
+      "score": 68
+    },
+    {
+      "id": "s-d2",
+      "member": "next-d",
+      "evaluator": "lab2",
+      "score": 90
+    },
+    {
+      "id": "s-f2",
+      "member": "next-f",
+      "evaluator": "lab2",
+      "score": 69
+    },
+    {
+      "id": "s-g2",
+      "member": "next-g",
+      "evaluator": "lab2",
+      "score": 66
+    },
+    {
+      "id": "s-e2",
+      "member": "next-e",
+      "evaluator": "lab2",
+      "score": 79
+    }
+  ]
+}

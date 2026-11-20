@@ -1,0 +1,110 @@
+{
+  "intake": 1,
+  "table": "calibrations",
+  "records": [
+    {
+      "id": "ca",
+      "episode": "A",
+      "cam_ticks": [
+        0,
+        12
+      ],
+      "ctl_ticks": [
+        100,
+        124
+      ],
+      "applies": null
+    },
+    {
+      "id": "cb",
+      "episode": "B",
+      "cam_ticks": [
+        0,
+        12
+      ],
+      "ctl_ticks": [
+        100,
+        124
+      ],
+      "applies": null
+    },
+    {
+      "id": "cc",
+      "episode": "C",
+      "cam_ticks": [
+        0,
+        12
+      ],
+      "ctl_ticks": [
+        100,
+        124
+      ],
+      "applies": null
+    },
+    {
+      "id": "cd",
+      "episode": "D",
+      "cam_ticks": [
+        0,
+        12
+      ],
+      "ctl_ticks": [
+        100,
+        124
+      ],
+      "applies": null
+    },
+    {
+      "id": "ce",
+      "episode": "E",
+      "cam_ticks": [
+        0,
+        12
+      ],
+      "ctl_ticks": [
+        100,
+        124
+      ],
+      "applies": null
+    },
+    {
+      "id": "cf",
+      "episode": "F",
+      "cam_ticks": [
+        0,
+        12
+      ],
+      "ctl_ticks": [
+        100,
+        124
+      ],
+      "applies": null
+    },
+    {
+      "id": "cg",
+      "episode": "G",
+      "cam_ticks": [
+        0,
+        12
+      ],
+      "ctl_ticks": [
+        100,
+        124
+      ],
+      "applies": null
+    },
+    {
+      "id": "ch",
+      "episode": "H",
+      "cam_ticks": [
+        0,
+        12
+      ],
+      "ctl_ticks": [
+        100,
+        124
+      ],
+      "applies": null
+    }
+  ]
+}

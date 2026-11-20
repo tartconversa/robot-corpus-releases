@@ -1,0 +1,19 @@
+{
+  "intake": 3,
+  "table": "calibrations",
+  "records": [
+    {
+      "id": "cc2",
+      "episode": "C",
+      "cam_ticks": [
+        0,
+        12
+      ],
+      "ctl_ticks": [
+        104,
+        128
+      ],
+      "applies": "cc"
+    }
+  ]
+}

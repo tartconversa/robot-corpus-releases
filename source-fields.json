@@ -1,0 +1,58 @@
+{
+  "segments": {
+    "id": "text",
+    "episode": "text",
+    "channel": "text",
+    "ticks": "file_ticks",
+    "file": "text",
+    "site": "text"
+  },
+  "calibrations": {
+    "id": "text",
+    "episode": "text",
+    "cam_ticks": "file_ticks",
+    "ctl_ticks": "file_ticks",
+    "applies": "text"
+  },
+  "labels": {
+    "id": "text",
+    "episode": "text",
+    "cam_ticks": "file_ticks",
+    "tag": "text",
+    "state": "text",
+    "label_rule": "text",
+    "applies": "text"
+  },
+  "links": {
+    "id": "text",
+    "episode_left": "text",
+    "episode_right": "text",
+    "kind": "text"
+  },
+  "past_manifests": {
+    "id": "text",
+    "release": "text",
+    "label": "text",
+    "calib": "text",
+    "role": "text"
+  },
+  "exposures": {
+    "id": "text",
+    "member": "text",
+    "recipient": "text",
+    "role": "text"
+  },
+  "scores": {
+    "id": "text",
+    "member": "text",
+    "evaluator": "text",
+    "score": "int"
+  },
+  "coverage": {
+    "id": "text",
+    "site": "text",
+    "tag": "text",
+    "minimum": "int",
+    "maximum_total": "int"
+  }
+}

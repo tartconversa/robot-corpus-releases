@@ -1,0 +1,17 @@
+{
+  "intake": 2,
+  "table": "segments",
+  "records": [
+    {
+      "id": "ctl-c2",
+      "episode": "C",
+      "channel": "ctl",
+      "ticks": [
+        114,
+        124
+      ],
+      "file": "c_ctl2.csv",
+      "site": "west"
+    }
+  ]
+}

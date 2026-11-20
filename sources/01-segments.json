@@ -1,0 +1,193 @@
+{
+  "intake": 1,
+  "table": "segments",
+  "records": [
+    {
+      "id": "cam-a1",
+      "episode": "A",
+      "channel": "cam",
+      "ticks": [
+        0,
+        6
+      ],
+      "file": "a1.csv",
+      "site": "east"
+    },
+    {
+      "id": "cam-a2",
+      "episode": "A",
+      "channel": "cam",
+      "ticks": [
+        6,
+        12
+      ],
+      "file": "a2.csv",
+      "site": "east"
+    },
+    {
+      "id": "ctl-a",
+      "episode": "A",
+      "channel": "ctl",
+      "ticks": [
+        100,
+        124
+      ],
+      "file": "a_ctl.csv",
+      "site": "east"
+    },
+    {
+      "id": "cam-b",
+      "episode": "B",
+      "channel": "cam",
+      "ticks": [
+        0,
+        12
+      ],
+      "file": "b.csv",
+      "site": "east"
+    },
+    {
+      "id": "ctl-b",
+      "episode": "B",
+      "channel": "ctl",
+      "ticks": [
+        100,
+        124
+      ],
+      "file": "b_ctl.csv",
+      "site": "east"
+    },
+    {
+      "id": "cam-c",
+      "episode": "C",
+      "channel": "cam",
+      "ticks": [
+        0,
+        12
+      ],
+      "file": "c.csv",
+      "site": "west"
+    },
+    {
+      "id": "ctl-c",
+      "episode": "C",
+      "channel": "ctl",
+      "ticks": [
+        100,
+        114
+      ],
+      "file": "c_ctl.csv",
+      "site": "west"
+    },
+    {
+      "id": "cam-d",
+      "episode": "D",
+      "channel": "cam",
+      "ticks": [
+        0,
+        12
+      ],
+      "file": "d.csv",
+      "site": "west"
+    },
+    {
+      "id": "ctl-d",
+      "episode": "D",
+      "channel": "ctl",
+      "ticks": [
+        100,
+        124
+      ],
+      "file": "d_ctl.csv",
+      "site": "west"
+    },
+    {
+      "id": "cam-e",
+      "episode": "E",
+      "channel": "cam",
+      "ticks": [
+        0,
+        12
+      ],
+      "file": "e.csv",
+      "site": "west"
+    },
+    {
+      "id": "ctl-e",
+      "episode": "E",
+      "channel": "ctl",
+      "ticks": [
+        100,
+        124
+      ],
+      "file": "e_ctl.csv",
+      "site": "west"
+    },
+    {
+      "id": "cam-f",
+      "episode": "F",
+      "channel": "cam",
+      "ticks": [
+        0,
+        12
+      ],
+      "file": "f.csv",
+      "site": "east"
+    },
+    {
+      "id": "ctl-f",
+      "episode": "F",
+      "channel": "ctl",
+      "ticks": [
+        100,
+        124
+      ],
+      "file": "f_ctl.csv",
+      "site": "east"
+    },
+    {
+      "id": "cam-g",
+      "episode": "G",
+      "channel": "cam",
+      "ticks": [
+        0,
+        12
+      ],
+      "file": "g.csv",
+      "site": "east"
+    },
+    {
+      "id": "ctl-g",
+      "episode": "G",
+      "channel": "ctl",
+      "ticks": [
+        100,
+        124
+      ],
+      "file": "g_ctl.csv",
+      "site": "east"
+    },
+    {
+      "id": "cam-h",
+      "episode": "H",
+      "channel": "cam",
+      "ticks": [
+        0,
+        12
+      ],
+      "file": "h.csv",
+      "site": "west"
+    },
+    {
+      "id": "ctl-h",
+      "episode": "H",
+      "channel": "ctl",
+      "ticks": [
+        100,
+        124
+      ],
+      "file": "h_ctl.csv",
+      "site": "west"
+    }
+  ]
+}

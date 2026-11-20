@@ -1,0 +1,18 @@
+{
+  "intake": 3,
+  "table": "links",
+  "records": [
+    {
+      "id": "link-bd",
+      "episode_left": "B",
+      "episode_right": "D",
+      "kind": "replay"
+    },
+    {
+      "id": "link-bc",
+      "episode_left": "B",
+      "episode_right": "C",
+      "kind": "mirror"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "intake": 2,
+  "table": "exposures",
+  "records": [
+    {
+      "id": "ex-d",
+      "member": "previous-d",
+      "recipient": "lab1",
+      "role": "blind"
+    },
+    {
+      "id": "ex-f",
+      "member": "previous-f",
+      "recipient": "lab1",
+      "role": "blind"
+    },
+    {
+      "id": "ex-g",
+      "member": "previous-g",
+      "recipient": "lab1",
+      "role": "blind"
+    },
+    {
+      "id": "ex-e",
+      "member": "next-e",
+      "recipient": "lab2",
+      "role": "blind"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "intake": 1,
+  "table": "coverage",
+  "records": [
+    {
+      "id": "mix-e",
+      "site": "east",
+      "tag": "grip",
+      "minimum": 1,
+      "maximum_total": 4
+    },
+    {
+      "id": "mix-w",
+      "site": "west",
+      "tag": "mount",
+      "minimum": 1,
+      "maximum_total": 4
+    },
+    {
+      "id": "mix-wg",
+      "site": "west",
+      "tag": "grip",
+      "minimum": 1,
+      "maximum_total": 4
+    }
+  ]
+}

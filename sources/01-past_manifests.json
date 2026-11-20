@@ -1,0 +1,55 @@
+{
+  "intake": 1,
+  "table": "past_manifests",
+  "records": [
+    {
+      "id": "previous-d",
+      "release": "bench-r1",
+      "label": "ld",
+      "calib": "cd",
+      "role": "blind"
+    },
+    {
+      "id": "previous-f",
+      "release": "bench-r1",
+      "label": "lf",
+      "calib": "cf",
+      "role": "blind"
+    },
+    {
+      "id": "previous-g",
+      "release": "bench-r1",
+      "label": "lg",
+      "calib": "cg",
+      "role": "blind"
+    },
+    {
+      "id": "previous-a",
+      "release": "train-r1",
+      "label": "la",
+      "calib": "ca",
+      "role": "train"
+    },
+    {
+      "id": "next-d",
+      "release": "bench-r2",
+      "label": "ld",
+      "calib": "cd",
+      "role": "blind"
+    },
+    {
+      "id": "next-f",
+      "release": "bench-r2",
+      "label": "lf",
+      "calib": "cf",
+      "role": "blind"
+    },
+    {
+      "id": "next-g",
+      "release": "bench-r2",
+      "label": "lg",
+      "calib": "cg",
+      "role": "blind"
+    }
+  ]
+}

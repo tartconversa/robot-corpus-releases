@@ -1,0 +1,13 @@
+{
+  "intake": 2,
+  "table": "past_manifests",
+  "records": [
+    {
+      "id": "next-e",
+      "release": "bench-r2",
+      "label": "le2",
+      "calib": "ce",
+      "role": "blind"
+    }
+  ]
+}

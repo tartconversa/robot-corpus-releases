@@ -1,0 +1,18 @@
+{
+  "intake": 3,
+  "table": "labels",
+  "records": [
+    {
+      "id": "lg2",
+      "episode": "G",
+      "cam_ticks": [
+        3,
+        9
+      ],
+      "tag": "grip",
+      "state": "reviewed",
+      "label_rule": "v2",
+      "applies": "lg"
+    }
+  ]
+}

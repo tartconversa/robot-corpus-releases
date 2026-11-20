@@ -1,0 +1,102 @@
+{
+  "intake": 1,
+  "table": "labels",
+  "records": [
+    {
+      "id": "la",
+      "episode": "A",
+      "cam_ticks": [
+        4,
+        9
+      ],
+      "tag": "grip",
+      "state": "reviewed",
+      "label_rule": "v1",
+      "applies": null
+    },
+    {
+      "id": "lb",
+      "episode": "B",
+      "cam_ticks": [
+        4,
+        9
+      ],
+      "tag": "grip",
+      "state": "reviewed",
+      "label_rule": "v1",
+      "applies": null
+    },
+    {
+      "id": "lc",
+      "episode": "C",
+      "cam_ticks": [
+        5,
+        12
+      ],
+      "tag": "mount",
+      "state": "reviewed",
+      "label_rule": "v1",
+      "applies": null
+    },
+    {
+      "id": "ld",
+      "episode": "D",
+      "cam_ticks": [
+        1,
+        8
+      ],
+      "tag": "mount",
+      "state": "reviewed",
+      "label_rule": "v1",
+      "applies": null
+    },
+    {
+      "id": "le",
+      "episode": "E",
+      "cam_ticks": [
+        2,
+        9
+      ],
+      "tag": "grip",
+      "state": "pending",
+      "label_rule": "v1",
+      "applies": null
+    },
+    {
+      "id": "lf",
+      "episode": "F",
+      "cam_ticks": [
+        3,
+        10
+      ],
+      "tag": "mount",
+      "state": "reviewed",
+      "label_rule": "v1",
+      "applies": null
+    },
+    {
+      "id": "lg",
+      "episode": "G",
+      "cam_ticks": [
+        3,
+        9
+      ],
+      "tag": "grip",
+      "state": "reviewed",
+      "label_rule": "v1",
+      "applies": null
+    },
+    {
+      "id": "lh",
+      "episode": "H",
+      "cam_ticks": [
+        4,
+        10
+      ],
+      "tag": "grip",
+      "state": "reviewed",
+      "label_rule": "v1",
+      "applies": null
+    }
+  ]
+}
