@@ -1,0 +1,802 @@
+{
+  "as_of": 1,
+  "evidence": [
+    {
+      "intake": 1,
+      "table": "calibrations",
+      "source_file": "01-calibrations.json",
+      "file_sha256": "e852bc4c5d083206712e3c17ecf3793d39d69947b95edc30ef7257d56489e56c",
+      "records": 8
+    },
+    {
+      "intake": 1,
+      "table": "coverage",
+      "source_file": "01-coverage.json",
+      "file_sha256": "4e8f37381e462552caf696025b55d1d0bbaa42d817e0f310b4f4acf4e98d1174",
+      "records": 3
+    },
+    {
+      "intake": 1,
+      "table": "exposures",
+      "source_file": "01-exposures.json",
+      "file_sha256": "0a7f5897a8ed678027a294ce951f459815a452433876f6ed79cc26268c2ee4ee",
+      "records": 1
+    },
+    {
+      "intake": 1,
+      "table": "labels",
+      "source_file": "01-labels.json",
+      "file_sha256": "95c660ffd9ad5c376103860aeefb0fb587a72e21f9e5f9bf27a271b6a12ff6df",
+      "records": 8
+    },
+    {
+      "intake": 1,
+      "table": "links",
+      "source_file": "01-links.json",
+      "file_sha256": "cd2520f9c19dd78cbb2973b50fb21d4d4d44e4f30e4dedad362fb3341d3aac2a",
+      "records": 1
+    },
+    {
+      "intake": 1,
+      "table": "past_manifests",
+      "source_file": "01-past_manifests.json",
+      "file_sha256": "fa151c655e0ddf109b0e2e25ae98cd06f446c0027e5c2e83dbe271240df9a7c9",
+      "records": 7
+    },
+    {
+      "intake": 1,
+      "table": "segments",
+      "source_file": "01-segments.json",
+      "file_sha256": "f32ace854697870a650c1d4dd8ed643ee5199389afd4fc3858aa384eff357f75",
+      "records": 17
+    }
+  ],
+  "episodes": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H"
+  ],
+  "samples": [
+    {
+      "episode": "A",
+      "site": "east",
+      "status": "deliverable",
+      "blockers": [],
+      "label": {
+        "id": "la",
+        "tag": "grip",
+        "state": "reviewed",
+        "label_rule": "v1",
+        "cam_ticks": [
+          4,
+          9
+        ],
+        "root_id": "la"
+      },
+      "calibration": {
+        "id": "ca",
+        "cam_ticks": [
+          0,
+          12
+        ],
+        "ctl_ticks": [
+          100,
+          124
+        ]
+      },
+      "cam_coverage": {
+        "intervals": [
+          [
+            0,
+            12
+          ]
+        ],
+        "segments": [
+          {
+            "id": "cam-a1",
+            "ticks": [
+              0,
+              6
+            ],
+            "file": "a1.csv"
+          },
+          {
+            "id": "cam-a2",
+            "ticks": [
+              6,
+              12
+            ],
+            "file": "a2.csv"
+          }
+        ]
+      },
+      "ctl_coverage": {
+        "intervals": [
+          [
+            100,
+            124
+          ]
+        ],
+        "segments": [
+          {
+            "id": "ctl-a",
+            "ticks": [
+              100,
+              124
+            ],
+            "file": "a_ctl.csv"
+          }
+        ]
+      },
+      "mapped_ctl_interval": {
+        "lo": "108/1",
+        "hi": "118/1",
+        "lo_decimal": "108.000000",
+        "hi_decimal": "118.000000"
+      },
+      "sample_id": "smp-5a94ad03d8cb5a9b",
+      "lineage": {
+        "built_as_of": 1,
+        "label_chain": [
+          "la"
+        ],
+        "calibration_chain": [
+          "ca"
+        ],
+        "link_evidence": [
+          {
+            "id": "link-ab",
+            "kind": "repeat",
+            "episode_left": "A",
+            "episode_right": "B"
+          }
+        ],
+        "mapped_ctl_interval": {
+          "lo": "108/1",
+          "hi": "118/1",
+          "lo_decimal": "108.000000",
+          "hi_decimal": "118.000000"
+        }
+      }
+    },
+    {
+      "episode": "B",
+      "site": "east",
+      "status": "deliverable",
+      "blockers": [],
+      "label": {
+        "id": "lb",
+        "tag": "grip",
+        "state": "reviewed",
+        "label_rule": "v1",
+        "cam_ticks": [
+          4,
+          9
+        ],
+        "root_id": "lb"
+      },
+      "calibration": {
+        "id": "cb",
+        "cam_ticks": [
+          0,
+          12
+        ],
+        "ctl_ticks": [
+          100,
+          124
+        ]
+      },
+      "cam_coverage": {
+        "intervals": [
+          [
+            0,
+            12
+          ]
+        ],
+        "segments": [
+          {
+            "id": "cam-b",
+            "ticks": [
+              0,
+              12
+            ],
+            "file": "b.csv"
+          }
+        ]
+      },
+      "ctl_coverage": {
+        "intervals": [
+          [
+            100,
+            124
+          ]
+        ],
+        "segments": [
+          {
+            "id": "ctl-b",
+            "ticks": [
+              100,
+              124
+            ],
+            "file": "b_ctl.csv"
+          }
+        ]
+      },
+      "mapped_ctl_interval": {
+        "lo": "108/1",
+        "hi": "118/1",
+        "lo_decimal": "108.000000",
+        "hi_decimal": "118.000000"
+      },
+      "sample_id": "smp-4f2a6b30c89933a5",
+      "lineage": {
+        "built_as_of": 1,
+        "label_chain": [
+          "lb"
+        ],
+        "calibration_chain": [
+          "cb"
+        ],
+        "link_evidence": [
+          {
+            "id": "link-ab",
+            "kind": "repeat",
+            "episode_left": "A",
+            "episode_right": "B"
+          }
+        ],
+        "mapped_ctl_interval": {
+          "lo": "108/1",
+          "hi": "118/1",
+          "lo_decimal": "108.000000",
+          "hi_decimal": "118.000000"
+        }
+      }
+    },
+    {
+      "episode": "C",
+      "site": "west",
+      "status": "missing_channel",
+      "blockers": [
+        "ctl 通道对映射区间 [110/1,124/1) 存在覆盖缺口，现有覆盖 [(100, 114)]"
+      ],
+      "label": {
+        "id": "lc",
+        "tag": "mount",
+        "state": "reviewed",
+        "label_rule": "v1",
+        "cam_ticks": [
+          5,
+          12
+        ],
+        "root_id": "lc"
+      },
+      "calibration": {
+        "id": "cc",
+        "cam_ticks": [
+          0,
+          12
+        ],
+        "ctl_ticks": [
+          100,
+          124
+        ]
+      },
+      "cam_coverage": {
+        "intervals": [
+          [
+            0,
+            12
+          ]
+        ],
+        "segments": [
+          {
+            "id": "cam-c",
+            "ticks": [
+              0,
+              12
+            ],
+            "file": "c.csv"
+          }
+        ]
+      },
+      "ctl_coverage": {
+        "intervals": [
+          [
+            100,
+            114
+          ]
+        ],
+        "segments": [
+          {
+            "id": "ctl-c",
+            "ticks": [
+              100,
+              114
+            ],
+            "file": "c_ctl.csv"
+          }
+        ]
+      },
+      "mapped_ctl_interval": {
+        "lo": "110/1",
+        "hi": "124/1",
+        "lo_decimal": "110.000000",
+        "hi_decimal": "124.000000"
+      },
+      "sample_id": null,
+      "lineage": {
+        "built_as_of": 1,
+        "label_chain": [
+          "lc"
+        ],
+        "calibration_chain": [
+          "cc"
+        ],
+        "link_evidence": [],
+        "mapped_ctl_interval": {
+          "lo": "110/1",
+          "hi": "124/1",
+          "lo_decimal": "110.000000",
+          "hi_decimal": "124.000000"
+        }
+      }
+    },
+    {
+      "episode": "D",
+      "site": "west",
+      "status": "deliverable",
+      "blockers": [],
+      "label": {
+        "id": "ld",
+        "tag": "mount",
+        "state": "reviewed",
+        "label_rule": "v1",
+        "cam_ticks": [
+          1,
+          8
+        ],
+        "root_id": "ld"
+      },
+      "calibration": {
+        "id": "cd",
+        "cam_ticks": [
+          0,
+          12
+        ],
+        "ctl_ticks": [
+          100,
+          124
+        ]
+      },
+      "cam_coverage": {
+        "intervals": [
+          [
+            0,
+            12
+          ]
+        ],
+        "segments": [
+          {
+            "id": "cam-d",
+            "ticks": [
+              0,
+              12
+            ],
+            "file": "d.csv"
+          }
+        ]
+      },
+      "ctl_coverage": {
+        "intervals": [
+          [
+            100,
+            124
+          ]
+        ],
+        "segments": [
+          {
+            "id": "ctl-d",
+            "ticks": [
+              100,
+              124
+            ],
+            "file": "d_ctl.csv"
+          }
+        ]
+      },
+      "mapped_ctl_interval": {
+        "lo": "102/1",
+        "hi": "116/1",
+        "lo_decimal": "102.000000",
+        "hi_decimal": "116.000000"
+      },
+      "sample_id": "smp-b75e53129e4a4140",
+      "lineage": {
+        "built_as_of": 1,
+        "label_chain": [
+          "ld"
+        ],
+        "calibration_chain": [
+          "cd"
+        ],
+        "link_evidence": [],
+        "mapped_ctl_interval": {
+          "lo": "102/1",
+          "hi": "116/1",
+          "lo_decimal": "102.000000",
+          "hi_decimal": "116.000000"
+        }
+      }
+    },
+    {
+      "episode": "E",
+      "site": "west",
+      "status": "pending_label",
+      "blockers": [
+        "标签 le 状态为 pending，未复核不得交付"
+      ],
+      "label": {
+        "id": "le",
+        "tag": "grip",
+        "state": "pending",
+        "label_rule": "v1",
+        "cam_ticks": [
+          2,
+          9
+        ],
+        "root_id": "le"
+      },
+      "calibration": {
+        "id": "ce",
+        "cam_ticks": [
+          0,
+          12
+        ],
+        "ctl_ticks": [
+          100,
+          124
+        ]
+      },
+      "cam_coverage": {
+        "intervals": [
+          [
+            0,
+            12
+          ]
+        ],
+        "segments": [
+          {
+            "id": "cam-e",
+            "ticks": [
+              0,
+              12
+            ],
+            "file": "e.csv"
+          }
+        ]
+      },
+      "ctl_coverage": {
+        "intervals": [
+          [
+            100,
+            124
+          ]
+        ],
+        "segments": [
+          {
+            "id": "ctl-e",
+            "ticks": [
+              100,
+              124
+            ],
+            "file": "e_ctl.csv"
+          }
+        ]
+      },
+      "mapped_ctl_interval": {
+        "lo": "104/1",
+        "hi": "118/1",
+        "lo_decimal": "104.000000",
+        "hi_decimal": "118.000000"
+      },
+      "sample_id": null,
+      "lineage": {
+        "built_as_of": 1,
+        "label_chain": [
+          "le"
+        ],
+        "calibration_chain": [
+          "ce"
+        ],
+        "link_evidence": [],
+        "mapped_ctl_interval": {
+          "lo": "104/1",
+          "hi": "118/1",
+          "lo_decimal": "104.000000",
+          "hi_decimal": "118.000000"
+        }
+      }
+    },
+    {
+      "episode": "F",
+      "site": "east",
+      "status": "deliverable",
+      "blockers": [],
+      "label": {
+        "id": "lf",
+        "tag": "mount",
+        "state": "reviewed",
+        "label_rule": "v1",
+        "cam_ticks": [
+          3,
+          10
+        ],
+        "root_id": "lf"
+      },
+      "calibration": {
+        "id": "cf",
+        "cam_ticks": [
+          0,
+          12
+        ],
+        "ctl_ticks": [
+          100,
+          124
+        ]
+      },
+      "cam_coverage": {
+        "intervals": [
+          [
+            0,
+            12
+          ]
+        ],
+        "segments": [
+          {
+            "id": "cam-f",
+            "ticks": [
+              0,
+              12
+            ],
+            "file": "f.csv"
+          }
+        ]
+      },
+      "ctl_coverage": {
+        "intervals": [
+          [
+            100,
+            124
+          ]
+        ],
+        "segments": [
+          {
+            "id": "ctl-f",
+            "ticks": [
+              100,
+              124
+            ],
+            "file": "f_ctl.csv"
+          }
+        ]
+      },
+      "mapped_ctl_interval": {
+        "lo": "106/1",
+        "hi": "120/1",
+        "lo_decimal": "106.000000",
+        "hi_decimal": "120.000000"
+      },
+      "sample_id": "smp-6ea51faee134c971",
+      "lineage": {
+        "built_as_of": 1,
+        "label_chain": [
+          "lf"
+        ],
+        "calibration_chain": [
+          "cf"
+        ],
+        "link_evidence": [],
+        "mapped_ctl_interval": {
+          "lo": "106/1",
+          "hi": "120/1",
+          "lo_decimal": "106.000000",
+          "hi_decimal": "120.000000"
+        }
+      }
+    },
+    {
+      "episode": "G",
+      "site": "east",
+      "status": "deliverable",
+      "blockers": [],
+      "label": {
+        "id": "lg",
+        "tag": "grip",
+        "state": "reviewed",
+        "label_rule": "v1",
+        "cam_ticks": [
+          3,
+          9
+        ],
+        "root_id": "lg"
+      },
+      "calibration": {
+        "id": "cg",
+        "cam_ticks": [
+          0,
+          12
+        ],
+        "ctl_ticks": [
+          100,
+          124
+        ]
+      },
+      "cam_coverage": {
+        "intervals": [
+          [
+            0,
+            12
+          ]
+        ],
+        "segments": [
+          {
+            "id": "cam-g",
+            "ticks": [
+              0,
+              12
+            ],
+            "file": "g.csv"
+          }
+        ]
+      },
+      "ctl_coverage": {
+        "intervals": [
+          [
+            100,
+            124
+          ]
+        ],
+        "segments": [
+          {
+            "id": "ctl-g",
+            "ticks": [
+              100,
+              124
+            ],
+            "file": "g_ctl.csv"
+          }
+        ]
+      },
+      "mapped_ctl_interval": {
+        "lo": "106/1",
+        "hi": "118/1",
+        "lo_decimal": "106.000000",
+        "hi_decimal": "118.000000"
+      },
+      "sample_id": "smp-71b442e2597c0f97",
+      "lineage": {
+        "built_as_of": 1,
+        "label_chain": [
+          "lg"
+        ],
+        "calibration_chain": [
+          "cg"
+        ],
+        "link_evidence": [],
+        "mapped_ctl_interval": {
+          "lo": "106/1",
+          "hi": "118/1",
+          "lo_decimal": "106.000000",
+          "hi_decimal": "118.000000"
+        }
+      }
+    },
+    {
+      "episode": "H",
+      "site": "west",
+      "status": "deliverable",
+      "blockers": [],
+      "label": {
+        "id": "lh",
+        "tag": "grip",
+        "state": "reviewed",
+        "label_rule": "v1",
+        "cam_ticks": [
+          4,
+          10
+        ],
+        "root_id": "lh"
+      },
+      "calibration": {
+        "id": "ch",
+        "cam_ticks": [
+          0,
+          12
+        ],
+        "ctl_ticks": [
+          100,
+          124
+        ]
+      },
+      "cam_coverage": {
+        "intervals": [
+          [
+            0,
+            12
+          ]
+        ],
+        "segments": [
+          {
+            "id": "cam-h",
+            "ticks": [
+              0,
+              12
+            ],
+            "file": "h.csv"
+          }
+        ]
+      },
+      "ctl_coverage": {
+        "intervals": [
+          [
+            100,
+            124
+          ]
+        ],
+        "segments": [
+          {
+            "id": "ctl-h",
+            "ticks": [
+              100,
+              124
+            ],
+            "file": "h_ctl.csv"
+          }
+        ]
+      },
+      "mapped_ctl_interval": {
+        "lo": "108/1",
+        "hi": "120/1",
+        "lo_decimal": "108.000000",
+        "hi_decimal": "120.000000"
+      },
+      "sample_id": "smp-7cb64461cb4d3217",
+      "lineage": {
+        "built_as_of": 1,
+        "label_chain": [
+          "lh"
+        ],
+        "calibration_chain": [
+          "ch"
+        ],
+        "link_evidence": [],
+        "mapped_ctl_interval": {
+          "lo": "108/1",
+          "hi": "120/1",
+          "lo_decimal": "108.000000",
+          "hi_decimal": "120.000000"
+        }
+      }
+    }
+  ],
+  "deliverable_sample_ids": [
+    "smp-4f2a6b30c89933a5",
+    "smp-5a94ad03d8cb5a9b",
+    "smp-6ea51faee134c971",
+    "smp-71b442e2597c0f97",
+    "smp-7cb64461cb4d3217",
+    "smp-b75e53129e4a4140"
+  ],
+  "summary": {
+    "episodes": 8,
+    "samples": 8,
+    "deliverable": 6,
+    "blocked": 2
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "as_of": 3,
+  "left_release": "bench-r1",
+  "right_release": "bench-r2",
+  "comparability_rule": "仅按同标签同校准的共同样本逐样本比较；污染区段排除；不做整包平均分，题数相同也不直接比包分",
+  "common_sample_count": 2,
+  "common_samples": [
+    {
+      "label_id": "lf",
+      "calib_id": "cf",
+      "members": {
+        "bench-r1": "previous-f",
+        "bench-r2": "next-f"
+      },
+      "recipients": {
+        "bench-r1": [
+          "lab1"
+        ],
+        "bench-r2": []
+      },
+      "scores_by_evaluator": {
+        "bench-r1": [
+          {
+            "evaluator": "lab1",
+            "score": 77,
+            "id": "s-f1"
+          }
+        ],
+        "bench-r2": [
+          {
+            "evaluator": "lab2",
+            "score": 69,
+            "id": "s-f2"
+          }
+        ]
+      }
+    },
+    {
+      "label_id": "lg",
+      "calib_id": "cg",
+      "members": {
+        "bench-r1": "previous-g",
+        "bench-r2": "next-g"
+      },
+      "recipients": {
+        "bench-r1": [
+          "lab1"
+        ],
+        "bench-r2": []
+      },
+      "scores_by_evaluator": {
+        "bench-r1": [
+          {
+            "evaluator": "lab1",
+            "score": 68,
+            "id": "s-g1"
+          }
+        ],
+        "bench-r2": [
+          {
+            "evaluator": "lab2",
+            "score": 66,
+            "id": "s-g2"
+          }
+        ]
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "members": [
+        "previous-d",
+        "next-d"
+      ],
+      "reason": "对应区段已判定污染，不能作为有效盲测比较"
+    },
+    {
+      "member": "next-e",
+      "release": "bench-r2",
+      "reason": "另一基准中不存在同标签同校准的对应成员"
+    }
+  ],
+  "remaining_coverage": {
+    "bench-r1": {
+      "valid_blind_members": [
+        "previous-f",
+        "previous-g"
+      ],
+      "without_common_counterpart": []
+    },
+    "bench-r2": {
+      "valid_blind_members": [
+        "next-e",
+        "next-f",
+        "next-g"
+      ],
+      "without_common_counterpart": [
+        "next-e"
+      ]
+    }
+  }
+}

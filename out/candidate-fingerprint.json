@@ -1,0 +1,13 @@
+{
+  "as_of": 1,
+  "sha256": "253ee63d41145a9d3b26df7a9e221dcafce7bd13b35b6924443360a4cd7f3209",
+  "tables": {
+    "calibrations": "ed3a02592b0bafd45e945a45ddfe3a6d89d703a6ea50c322c9de48da00f09f1b",
+    "labels": "a3cc412a8476b1724900b2b3f88d4ea95ef2f0f8c974365575189bdd2ceae9a6",
+    "links": "7f201e574bdea6da97a611f1b905fdeb8fca7a5c252f81bcf7fd5a69ad872f75",
+    "exposures": "49262d878de98091d1082c3969dfc84dc5ffd6189949a73fe78ec7eeef2e7a19",
+    "past_manifests": "c0ec68951f75ef5f489d4c99ba0f79b6d46d201563ade803865b574b63595cc8",
+    "segments": "4a3e76cb42e952350de6b5ccc35811c31261842b7bfbdfd40afef2f2ed5c5252",
+    "coverage": "1b26757212bdb1b4f248e135781d92e5ef2c95ea9b62ff4c50e416e9a518f3b1"
+  }
+}

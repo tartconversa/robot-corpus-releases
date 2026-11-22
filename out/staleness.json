@@ -1,0 +1,71 @@
+{
+  "stale": true,
+  "preview_as_of": 1,
+  "confirm_as_of": 3,
+  "changed_tables": [
+    "calibrations",
+    "labels",
+    "links",
+    "exposures",
+    "past_manifests",
+    "segments"
+  ],
+  "new_evidence": [
+    {
+      "intake": 2,
+      "table": "exposures",
+      "source_file": "02-exposures.json",
+      "records": 4
+    },
+    {
+      "intake": 2,
+      "table": "labels",
+      "source_file": "02-labels.json",
+      "records": 1
+    },
+    {
+      "intake": 2,
+      "table": "past_manifests",
+      "source_file": "02-past_manifests.json",
+      "records": 1
+    },
+    {
+      "intake": 2,
+      "table": "segments",
+      "source_file": "02-segments.json",
+      "records": 1
+    },
+    {
+      "intake": 3,
+      "table": "calibrations",
+      "source_file": "03-calibrations.json",
+      "records": 1
+    },
+    {
+      "intake": 3,
+      "table": "labels",
+      "source_file": "03-labels.json",
+      "records": 1
+    },
+    {
+      "intake": 3,
+      "table": "links",
+      "source_file": "03-links.json",
+      "records": 2
+    }
+  ],
+  "current_fingerprint": {
+    "as_of": 3,
+    "sha256": "a5b93db70f1f4559934456c7c6fa10571c709bc4de77dba758fd676ad7e9137b",
+    "tables": {
+      "calibrations": "cbd13a29f9d61558fa254e87b66e2a52081cd9eb5d34a7f996f7e43d1a80046c",
+      "labels": "753113d170ce6de5907c8b2ff1998195ba08d9d84969ebb0cbf8fbca51c96bcb",
+      "links": "dbfa669c328f2468ddd741651158e05047497edf06617b16aa665ce242029993",
+      "exposures": "c9d539d547f47e862edb3d9debee3d6f81fd32bdff995d50de65afb1527f5f66",
+      "past_manifests": "47e7f1d5ff23c2aa8f218f70898e8f5edb5c7d23d24973f4186fa98ab7999602",
+      "segments": "ae88ec16d9a47a15118d575f82d2abdaa4bac04ed49d828d4753869970a00c7d",
+      "coverage": "1b26757212bdb1b4f248e135781d92e5ef2c95ea9b62ff4c50e416e9a518f3b1"
+    }
+  },
+  "action": "必须重新预览后再发布"
+}

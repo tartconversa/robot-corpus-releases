@@ -1,0 +1,188 @@
+{
+  "as_of": 3,
+  "releases": [
+    {
+      "release": "bench-r1",
+      "members": [
+        "previous-d",
+        "previous-f",
+        "previous-g"
+      ],
+      "valid_blind": 2,
+      "contaminated_blind": 1,
+      "train_members": 0
+    },
+    {
+      "release": "bench-r2",
+      "members": [
+        "next-d",
+        "next-e",
+        "next-f",
+        "next-g"
+      ],
+      "valid_blind": 3,
+      "contaminated_blind": 1,
+      "train_members": 0
+    },
+    {
+      "release": "train-r1",
+      "members": [
+        "previous-a"
+      ],
+      "valid_blind": 0,
+      "contaminated_blind": 0,
+      "train_members": 1
+    }
+  ],
+  "members": [
+    {
+      "member": "next-d",
+      "release": "bench-r2",
+      "role": "blind",
+      "label_id": "ld",
+      "calib_id": "cd",
+      "recipients": [],
+      "receipt_confirmed": false,
+      "scores": [
+        {
+          "evaluator": "lab2",
+          "score": 90,
+          "id": "s-d2"
+        }
+      ],
+      "effective_blind": false,
+      "status": "contaminated_blind"
+    },
+    {
+      "member": "next-e",
+      "release": "bench-r2",
+      "role": "blind",
+      "label_id": "le2",
+      "calib_id": "ce",
+      "recipients": [
+        "lab2"
+      ],
+      "receipt_confirmed": true,
+      "scores": [
+        {
+          "evaluator": "lab2",
+          "score": 79,
+          "id": "s-e2"
+        }
+      ],
+      "effective_blind": true,
+      "status": "valid_blind"
+    },
+    {
+      "member": "next-f",
+      "release": "bench-r2",
+      "role": "blind",
+      "label_id": "lf",
+      "calib_id": "cf",
+      "recipients": [],
+      "receipt_confirmed": false,
+      "scores": [
+        {
+          "evaluator": "lab2",
+          "score": 69,
+          "id": "s-f2"
+        }
+      ],
+      "effective_blind": true,
+      "status": "valid_blind"
+    },
+    {
+      "member": "next-g",
+      "release": "bench-r2",
+      "role": "blind",
+      "label_id": "lg",
+      "calib_id": "cg",
+      "recipients": [],
+      "receipt_confirmed": false,
+      "scores": [
+        {
+          "evaluator": "lab2",
+          "score": 66,
+          "id": "s-g2"
+        }
+      ],
+      "effective_blind": true,
+      "status": "valid_blind"
+    },
+    {
+      "member": "previous-a",
+      "release": "train-r1",
+      "role": "train",
+      "label_id": "la",
+      "calib_id": "ca",
+      "recipients": [
+        "team1"
+      ],
+      "receipt_confirmed": true,
+      "scores": [],
+      "effective_blind": false,
+      "status": "train_member"
+    },
+    {
+      "member": "previous-d",
+      "release": "bench-r1",
+      "role": "blind",
+      "label_id": "ld",
+      "calib_id": "cd",
+      "recipients": [
+        "lab1"
+      ],
+      "receipt_confirmed": true,
+      "scores": [
+        {
+          "evaluator": "lab1",
+          "score": 80,
+          "id": "s-d1"
+        }
+      ],
+      "effective_blind": false,
+      "status": "contaminated_blind"
+    },
+    {
+      "member": "previous-f",
+      "release": "bench-r1",
+      "role": "blind",
+      "label_id": "lf",
+      "calib_id": "cf",
+      "recipients": [
+        "lab1"
+      ],
+      "receipt_confirmed": true,
+      "scores": [
+        {
+          "evaluator": "lab1",
+          "score": 77,
+          "id": "s-f1"
+        }
+      ],
+      "effective_blind": true,
+      "status": "valid_blind"
+    },
+    {
+      "member": "previous-g",
+      "release": "bench-r1",
+      "role": "blind",
+      "label_id": "lg",
+      "calib_id": "cg",
+      "recipients": [
+        "lab1"
+      ],
+      "receipt_confirmed": true,
+      "scores": [
+        {
+          "evaluator": "lab1",
+          "score": 68,
+          "id": "s-g1"
+        }
+      ],
+      "effective_blind": true,
+      "status": "valid_blind"
+    }
+  ],
+  "note": "历史清单不回写；contaminated_blind 不得再作为有效盲测参与计算"
+}

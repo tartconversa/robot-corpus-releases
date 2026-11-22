@@ -1,0 +1,95 @@
+{
+  "intakes": [
+    1,
+    2,
+    3
+  ],
+  "tables": [
+    "calibrations",
+    "coverage",
+    "exposures",
+    "labels",
+    "links",
+    "past_manifests",
+    "scores",
+    "segments"
+  ],
+  "delivery_counts": [
+    {
+      "intake": 1,
+      "table": "calibrations",
+      "records": 8
+    },
+    {
+      "intake": 1,
+      "table": "coverage",
+      "records": 3
+    },
+    {
+      "intake": 1,
+      "table": "exposures",
+      "records": 1
+    },
+    {
+      "intake": 1,
+      "table": "labels",
+      "records": 8
+    },
+    {
+      "intake": 1,
+      "table": "links",
+      "records": 1
+    },
+    {
+      "intake": 1,
+      "table": "past_manifests",
+      "records": 7
+    },
+    {
+      "intake": 1,
+      "table": "segments",
+      "records": 17
+    },
+    {
+      "intake": 2,
+      "table": "exposures",
+      "records": 4
+    },
+    {
+      "intake": 2,
+      "table": "labels",
+      "records": 1
+    },
+    {
+      "intake": 2,
+      "table": "past_manifests",
+      "records": 1
+    },
+    {
+      "intake": 2,
+      "table": "scores",
+      "records": 7
+    },
+    {
+      "intake": 2,
+      "table": "segments",
+      "records": 1
+    },
+    {
+      "intake": 3,
+      "table": "calibrations",
+      "records": 1
+    },
+    {
+      "intake": 3,
+      "table": "labels",
+      "records": 1
+    },
+    {
+      "intake": 3,
+      "table": "links",
+      "records": 2
+    }
+  ],
+  "validation_problems": []
+}

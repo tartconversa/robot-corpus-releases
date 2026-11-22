@@ -1,0 +1,15 @@
+{
+  "as_of": 2,
+  "bundle_count": 8,
+  "bundles": [
+    "/workspace/out/bundles/bundle-smp-3bf73834931b1578.json",
+    "/workspace/out/bundles/bundle-smp-4f2a6b30c89933a5.json",
+    "/workspace/out/bundles/bundle-smp-5a94ad03d8cb5a9b.json",
+    "/workspace/out/bundles/bundle-smp-630f92bd0b52e064.json",
+    "/workspace/out/bundles/bundle-smp-6ea51faee134c971.json",
+    "/workspace/out/bundles/bundle-smp-71b442e2597c0f97.json",
+    "/workspace/out/bundles/bundle-smp-7cb64461cb4d3217.json",
+    "/workspace/out/bundles/bundle-smp-b75e53129e4a4140.json"
+  ],
+  "lake_sha256": "178f2e9fa0b5f67065d4daccc6e516bf12096775dcfe244f15431c5027be326a"
+}

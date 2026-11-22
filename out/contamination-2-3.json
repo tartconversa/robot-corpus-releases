@@ -1,0 +1,88 @@
+{
+  "as_of": 3,
+  "prior_as_of": 2,
+  "new_link_records": [
+    "link-bd",
+    "link-bc"
+  ],
+  "contaminated_releases": [
+    "bench-r1",
+    "bench-r2"
+  ],
+  "contaminated_blind_members": [
+    "next-d",
+    "previous-d"
+  ],
+  "train_members_in_same_groups": [
+    "previous-a"
+  ],
+  "seen_samples": [
+    {
+      "member": "next-d",
+      "release": "bench-r2",
+      "role": "blind",
+      "label_id": "ld",
+      "calib_id": "cd",
+      "recipients": [],
+      "episode": "D"
+    },
+    {
+      "member": "previous-a",
+      "release": "train-r1",
+      "role": "train",
+      "label_id": "la",
+      "calib_id": "ca",
+      "recipients": [
+        "team1"
+      ],
+      "episode": "A"
+    },
+    {
+      "member": "previous-d",
+      "release": "bench-r1",
+      "role": "blind",
+      "label_id": "ld",
+      "calib_id": "cd",
+      "recipients": [
+        "lab1"
+      ],
+      "episode": "D"
+    }
+  ],
+  "current_grouping": [
+    {
+      "group_id": "A",
+      "episodes": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "group_id": "E",
+      "episodes": [
+        "E"
+      ]
+    },
+    {
+      "group_id": "F",
+      "episodes": [
+        "F"
+      ]
+    },
+    {
+      "group_id": "G",
+      "episodes": [
+        "G"
+      ]
+    },
+    {
+      "group_id": "H",
+      "episodes": [
+        "H"
+      ]
+    }
+  ],
+  "rule": "历史发布不重写；重新导出或计算可比成绩时，污染区段不得作为有效盲测"
+}

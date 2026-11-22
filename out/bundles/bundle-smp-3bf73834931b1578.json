@@ -1,0 +1,183 @@
+{
+  "sample_id": "smp-3bf73834931b1578",
+  "episode": "C",
+  "site": "west",
+  "annotation": {
+    "tag": "mount",
+    "label_rule": "v1",
+    "label_id": "lc",
+    "cam_ticks": [
+      5,
+      12
+    ]
+  },
+  "timebase": {
+    "calibration_id": "cc",
+    "cam_anchor_ticks": [
+      0,
+      12
+    ],
+    "ctl_anchor_ticks": [
+      100,
+      124
+    ],
+    "mapped_ctl_interval": {
+      "lo": "110/1",
+      "hi": "124/1",
+      "lo_decimal": "110.000000",
+      "hi_decimal": "124.000000"
+    },
+    "ctl_integer_rows": [
+      110,
+      124
+    ]
+  },
+  "channels": {
+    "cam": [
+      {
+        "segment_id": "cam-c",
+        "ts": 5,
+        "value": "82",
+        "status": "ok"
+      },
+      {
+        "segment_id": "cam-c",
+        "ts": 6,
+        "value": "85",
+        "status": "ok"
+      },
+      {
+        "segment_id": "cam-c",
+        "ts": 7,
+        "value": "88",
+        "status": "ok"
+      },
+      {
+        "segment_id": "cam-c",
+        "ts": 8,
+        "value": "91",
+        "status": "ok"
+      },
+      {
+        "segment_id": "cam-c",
+        "ts": 9,
+        "value": "94",
+        "status": "ok"
+      },
+      {
+        "segment_id": "cam-c",
+        "ts": 10,
+        "value": "97",
+        "status": "ok"
+      },
+      {
+        "segment_id": "cam-c",
+        "ts": 11,
+        "value": "100",
+        "status": "ok"
+      }
+    ],
+    "ctl": [
+      {
+        "segment_id": "ctl-c",
+        "ts": 110,
+        "value": "617",
+        "status": "ok"
+      },
+      {
+        "segment_id": "ctl-c",
+        "ts": 111,
+        "value": "622",
+        "status": "ok"
+      },
+      {
+        "segment_id": "ctl-c",
+        "ts": 112,
+        "value": "627",
+        "status": "ok"
+      },
+      {
+        "segment_id": "ctl-c",
+        "ts": 113,
+        "value": "632",
+        "status": "ok"
+      },
+      {
+        "segment_id": "ctl-c2",
+        "ts": 114,
+        "value": "637",
+        "status": "ok"
+      },
+      {
+        "segment_id": "ctl-c2",
+        "ts": 115,
+        "value": "642",
+        "status": "ok"
+      },
+      {
+        "segment_id": "ctl-c2",
+        "ts": 116,
+        "value": "647",
+        "status": "ok"
+      },
+      {
+        "segment_id": "ctl-c2",
+        "ts": 117,
+        "value": "652",
+        "status": "ok"
+      },
+      {
+        "segment_id": "ctl-c2",
+        "ts": 118,
+        "value": "657",
+        "status": "ok"
+      },
+      {
+        "segment_id": "ctl-c2",
+        "ts": 119,
+        "value": "662",
+        "status": "ok"
+      },
+      {
+        "segment_id": "ctl-c2",
+        "ts": 120,
+        "value": "667",
+        "status": "ok"
+      },
+      {
+        "segment_id": "ctl-c2",
+        "ts": 121,
+        "value": "672",
+        "status": "ok"
+      },
+      {
+        "segment_id": "ctl-c2",
+        "ts": 122,
+        "value": "677",
+        "status": "ok"
+      },
+      {
+        "segment_id": "ctl-c2",
+        "ts": 123,
+        "value": "682",
+        "status": "ok"
+      }
+    ]
+  },
+  "lineage": {
+    "built_as_of": 2,
+    "label_chain": [
+      "lc"
+    ],
+    "calibration_chain": [
+      "cc"
+    ],
+    "link_evidence": [],
+    "mapped_ctl_interval": {
+      "lo": "110/1",
+      "hi": "124/1",
+      "lo_decimal": "110.000000",
+      "hi_decimal": "124.000000"
+    }
+  }
+}

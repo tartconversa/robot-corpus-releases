@@ -1,0 +1,130 @@
+{
+  "as_of": 1,
+  "feasible": false,
+  "candidate": null,
+  "shortage": {
+    "scope_shortfalls": [
+      {
+        "coverage_id": "mix-e",
+        "site": "east",
+        "tag": "grip",
+        "minimum": 1,
+        "maximum_total": 4,
+        "fresh_available_actions": 0,
+        "deficit": 1,
+        "blocking_groups": [
+          {
+            "group_id": "A",
+            "episodes": [
+              "A",
+              "B"
+            ],
+            "lock": "train_exposed",
+            "reason": "组内有成员已交付训练，整组不得进入新盲测"
+          },
+          {
+            "group_id": "G",
+            "episodes": [
+              "G"
+            ],
+            "lock": "blind_exposed",
+            "reason": "组内有成员已交付盲测，曝光动作不得转训练或重复盲测"
+          }
+        ]
+      },
+      {
+        "coverage_id": "mix-w",
+        "site": "west",
+        "tag": "mount",
+        "minimum": 1,
+        "maximum_total": 4,
+        "fresh_available_actions": 0,
+        "deficit": 1,
+        "blocking_groups": [
+          {
+            "group_id": "D",
+            "episodes": [
+              "D"
+            ],
+            "lock": "blind_exposed",
+            "reason": "组内有成员已交付盲测，曝光动作不得转训练或重复盲测"
+          },
+          {
+            "group_id": null,
+            "episodes": [
+              "C"
+            ],
+            "lock": "missing_channel",
+            "reason": "ctl 通道对映射区间 [110/1,124/1) 存在覆盖缺口，现有覆盖 [(100, 114)]"
+          }
+        ]
+      },
+      {
+        "coverage_id": "mix-wg",
+        "site": "west",
+        "tag": "grip",
+        "minimum": 1,
+        "maximum_total": 4,
+        "fresh_available_actions": 1,
+        "deficit": 0,
+        "blocking_groups": []
+      }
+    ],
+    "structural_cap_violations": []
+  },
+  "locked_groups": [
+    {
+      "group_id": "A",
+      "episodes": [
+        "A",
+        "B"
+      ],
+      "lock": "train_exposed",
+      "reason": "组内有成员已交付训练，整组不得进入新盲测",
+      "train_members": [
+        "previous-a"
+      ],
+      "blind_members": []
+    },
+    {
+      "group_id": "D",
+      "episodes": [
+        "D"
+      ],
+      "lock": "blind_exposed",
+      "reason": "组内有成员已交付盲测，曝光动作不得转训练或重复盲测",
+      "train_members": [],
+      "blind_members": [
+        "next-d",
+        "previous-d"
+      ]
+    },
+    {
+      "group_id": "F",
+      "episodes": [
+        "F"
+      ],
+      "lock": "blind_exposed",
+      "reason": "组内有成员已交付盲测，曝光动作不得转训练或重复盲测",
+      "train_members": [],
+      "blind_members": [
+        "next-f",
+        "previous-f"
+      ]
+    },
+    {
+      "group_id": "G",
+      "episodes": [
+        "G"
+      ],
+      "lock": "blind_exposed",
+      "reason": "组内有成员已交付盲测，曝光动作不得转训练或重复盲测",
+      "train_members": [],
+      "blind_members": [
+        "next-g",
+        "previous-g"
+      ]
+    }
+  ],
+  "rule": "禁止拆组、禁止复用曝光来源；无法达成即如实交代短缺"
+}
